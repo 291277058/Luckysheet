@@ -428,7 +428,7 @@ export function checkstatusByCell(cell, a){
                 foucsStatus = "#000000";
             }
 
-            if(foucsStatus.indexOf("rgba") > -1){
+            if(foucsStatus.indexOf("rgb") > -1){
                 foucsStatus = rgbTohex(foucsStatus);
             }
         }

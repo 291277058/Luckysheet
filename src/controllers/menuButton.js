@@ -4460,7 +4460,7 @@ const menuButton = {
             "13": "Thick",
         };
 
-        type = borderType[type.toString()];
+        type = borderType[type?type.toString():"0"];
 
         try {
             if (type == "Hair") {
